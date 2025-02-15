@@ -8,7 +8,7 @@ const viteConfig = defineConfig((env) => {
   const isDevMode = env.mode.includes('development');
 
   return {
-    base: '/likelion-react-homework6/',
+    base: '/',
     plugins: [
       react({
         jsxRuntime: 'automatic',
