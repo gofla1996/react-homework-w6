@@ -33,11 +33,6 @@ const viteConfig = defineConfig((env) => {
           : '_[hash:base64:6]',
       },
     },
-    resolve: {
-      alias: {
-        '@': fileURLToPath(new URL('./src', import.meta.url)),
-      },
-    },
   };
 });
 
